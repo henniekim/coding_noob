@@ -58,3 +58,93 @@ g++ -o hellofunc main.cpp myfunction.cpp
 hello world!
 my function
 ```
+# Using g++ compiler to link sources (compile first link after)
+1. Use any text editor to make "main.cpp" Type as below and save as "main.cpp"
+```
+extern void myfunction();
+
+int main()
+{
+  myfunction();
+  myfunction();
+  return 0;
+}
+```
+2. Type as below and save as "myfunction.cpp"
+```
+#include <stdio.h>
+
+void myfunction()
+{
+  prinf("hello world!\n");
+}
+```
+3. Compile firakefile'
+st 
+```
+$ g++ -c main.cpp
+$ g++ -c myfunction.cpp
+```
+4. Link together 
+```
+$ g++ main.o myfunction.o -o link
+```
+5. Execute file
+```
+$ ./link
+```
+6. See the result as below
+```
+hello world!
+hello world!
+```
+
+# Make shell script
+1. Open any text editor and type as below. Save as "myscript.sh"
+```
+g++ -c main.cpp
+g++ -c myfunction.cpp
+g++ main.o myfunction.o -o link
+```
+
+2. Execute bash script file to compile and link files.
+```
+$ bash ./myscripts.sh
+```
+
+3. See the result as below
+```
+hello world!
+hello world!
+```
+
+# Using 'Cmake'
+1. Type as below and save as "CMakeLists.txt"
+```
+cmake_minimum_required(VERSION 3.6)
+project(cmake_example)
+set(CMAKE_CXX_STANDARD 14)
+set(SOURCE_FILES main.cpp myfunction.cpp)
+add_executable(cmake_example ${SOURCE_FILES})
+```
+2. Using 'cmake' to generate "Makefile" file. (It sounds wierd but the name of file is "Makefile".)
+```
+cmake CMakeLists.txt
+```
+3. Using 'make' command to compile.
+```
+make
+```
+4. You can see the result as below
+```
+[33%] Building CXX object CMakeFiles/cmake_example.dir/myfunction.cpp.o
+[66%] Building CXX object CMakeFiles/cmake_example.dir/main.cpp.o
+[100%] Linking CXX executable cmake_example
+[100%] Build target cmake_example
+```
+5. Execute and check the result
+```
+./cmake_example
+hello world!
+hello world!
+```
