@@ -2,6 +2,13 @@
 Helpful information for coding noobs
 All code is executed in linux 14.0.3
 
+# List 
+
+[1. ](# Using g++ compiler )
+[2. ](# Using g++ compiler to link sources) 
+[3. ](# Make shell script)
+[4. ](# Using 'Cmake')
+
 # Using g++ compiler 
 Here is the basic c code example. 
 
