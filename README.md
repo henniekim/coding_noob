@@ -62,7 +62,7 @@ void myfunction()
 ```
 3. Compile together 
 ```
-g++ -o hellofunc main.cpp myfunction.cpp
+$ g++ -o hellofunc main.cpp myfunction.cpp
 ```
 
 4. You can see the result as below
@@ -144,11 +144,11 @@ add_executable(cmake_example ${SOURCE_FILES})
 ```
 2. Using 'cmake' to generate "Makefile" file. (It sounds wierd but the name of file is "Makefile".)
 ```
-cmake CMakeLists.txt
+$ cmake CMakeLists.txt
 ```
 3. Using 'make' command to compile.
 ```
-make
+$ make
 ```
 4. You can see the result as below
 ```
@@ -159,7 +159,7 @@ make
 ```
 5. Execute and check the result
 ```
-./cmake_example
+$ ./cmake_example
 hello world!
 hello world!
 ```
