@@ -1,5 +1,6 @@
 # coding_noob
 Helpful information for coding noobs
+All code is executed in linux 14.0.3
 
 # Using g++ compiler 
 Here is the basic c code example. 
