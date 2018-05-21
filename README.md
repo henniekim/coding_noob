@@ -1,6 +1,6 @@
 # coding_noob
-Helpful information for coding noobs
-All code is executed in linux 14.0.3
+Helpful information for coding noobs.  
+All codes are executed in linux 14.0.4
 
 # List 
 
