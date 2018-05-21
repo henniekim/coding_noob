@@ -4,11 +4,11 @@ All code is executed in linux 14.0.3
 
 # List 
 
-* [Using g++ compiler](#using-g++-compiler)  
-* [Using g++ compiler to link sources](#using-g\+\+-compiler-to-link-sources)   
-* [Using g++ compiler to link sources (compile first link after)](#Using-g++-compiler-to-link-sources-(compile-first-link-after))
+* [Using g++ compiler](#using-g-compiler)  
+* [Using g++ compiler to link sources](#using-g-compiler-to-link-sources)   
+* [Using g++ compiler to link sources (compile first link after)](#using-compiler-to-link-sources-compile-first-link-after)
 * [Make shell script](#make-shell-script)  
-* [Using 'Cmake'](#using-'Cmake')  
+* [Using 'Cmake'](#using-cmake)  
 
 # Using g++ compiler
 Here is the basic c code example. 
