@@ -1,15 +1,15 @@
-#coding_noob
+# coding_noob
 Helpful information for coding noobs
 All code is executed in linux 14.0.3
 
-#List 
+# List 
 
 * [Using g++ compiler](#Using-g++-compiler)  
 * [Using g++ compiler to link sources](#Using-g++-compiler-to-link-sources)   
 * [Make shell script](#Make-shell-script)  
 * [Using 'Cmake'](#Using-\'Cmake\')  
 
-#Using g++ compiler
+# Using g++ compiler
 Here is the basic c code example. 
 
 1. Use any text editor (vim is recommended) to make "hello.cpp". Type as below and save as "hello.cpp"
