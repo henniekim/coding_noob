@@ -1,6 +1,6 @@
 # coding_noob
 Helpful information for coding noobs.  
-All codes are executed in Ubuntu 14.0.4
+All codes are executed in Ubuntu 14.04.5
 
 # List 
 
